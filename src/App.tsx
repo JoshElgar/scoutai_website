@@ -1,8 +1,17 @@
+import Layout from "./components/Layout";
+import TopBar from "./components/TopBar";
+import MainContent from "./components/MainContent";
+import SoundEffect from "./components/SoundEffect";
+
 function App() {
   return (
-    <>
-      <h1 className="flex justify-center items-center min-h-screen">welcome</h1>
-    </>
+    <Layout>
+      <div className="w-full h-full">
+        <TopBar />
+        <MainContent />
+        <SoundEffect />
+      </div>
+    </Layout>
   );
 }
 

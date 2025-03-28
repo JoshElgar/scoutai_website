@@ -1,5 +1,56 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "PokemonPixel";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+
+  src: url("/pokemon_pixel_font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "AdverseCaseDemo";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("/AdvercaseFont-Demo-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "AdverseCaseDemo";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("/AdvercaseFont-Demo-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DigitalTech";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("/digitaltech.otf") format("opentype");
+}
+
+@theme {
+  --color-border: #b7b7b7;
+  --color-textbox: #f6f6f6;
+  --color-text: #213547;
+  --color-background: #ffffff;
+  --font-pokemon-pixel: "PokemonPixel", sans-serif;
+  --font-advercase: "AdverseCaseDemo", sans-serif;
+  --font-digitaltech: "DigitalTech", sans-serif;
+}
+
+/* Reset default margins and padding */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* cursor: crosshair !important; */
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,6 +66,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,7 +81,6 @@ a:hover {
 }
 
 body {
-  margin: 0;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -43,7 +98,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: border-color 0.25s;
 }
 button:hover {
