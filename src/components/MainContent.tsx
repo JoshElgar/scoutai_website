@@ -226,7 +226,7 @@ export default function MainContent() {
       </div>
 
       <div className="w-full px-4 pt-4">
-        <DividerLine text="Components" />
+        <DividerLine text="Features" />
       </div>
 
       {/* Flexbox with map and smaller images */}
