@@ -65,7 +65,7 @@ export default function MainContent() {
     if (coordinatesElement) {
       // Scramble text effect for coordinates
       gsap.to(coordinatesElement, {
-        duration: 2,
+        duration: 0,
         ease: "power1.inOut",
         onUpdate: function () {
           if (Math.random() > 0.7) {
@@ -75,7 +75,7 @@ export default function MainContent() {
           }
         },
         repeat: -1,
-        repeatDelay: 3,
+        repeatDelay: 0,
       });
     }
 
