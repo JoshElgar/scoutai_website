@@ -241,16 +241,16 @@ export default function MainContent() {
                 className="w-full h-full object-cover"
               />
               <div
-                className="absolute inset-0 bg-black/20 flex items-center justify-center rounded-full cursor-pointer"
+                className="absolute inset-0 bg-black/20 flex items-center justify-center rounded-full cursor-pointer z-100"
                 onMouseEnter={handleHover}
               >
-                <p className="text-black text-lg md:text-2xl font-pokemon-pixel bg-textbox px-1 uppercase">
+                <p className="text-black text-lg md:text-2xl font-pokemon-pixel bg-textbox px-1 uppercase z-100">
                   Autonomous Navigation
                 </p>
               </div>
             </div>
             <svg
-              className="absolute top-0 left-0 w-full h-full opacity-100 pointer-events-none"
+              className="absolute top-0 left-0 w-full h-full opacity-100 pointer-events-none z-10"
               viewBox="-648 -122 2152 2152"
             >
               <path
