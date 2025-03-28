@@ -265,11 +265,11 @@ export default function MainContent() {
                 filter="drop-shadow(0 0 2px rgba(255,255,255,0.4))"
               />
               {/* Start marker */}
-              <circle id="startMarker" cx="17" cy="1" r="8" fill="red" />
+              <circle id="startMarker" cx="17" cy="1" r="16" fill="red" />
               {/* Moving dot */}
-              <circle id="dot" cx="17" cy="1" r="16" fill="white" />
+              <circle id="dot" cx="17" cy="1" r="32" fill="white" />
               {/* End marker */}
-              <circle id="endMarker" cx="297" cy="1856" r="8" fill="green" />
+              <circle id="endMarker" cx="297" cy="1856" r="16" fill="green" />
             </svg>
           </div>
         </div>
