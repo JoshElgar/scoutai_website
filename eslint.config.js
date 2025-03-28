@@ -24,8 +24,5 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
     },
-    compilerOptions: {
-      noUnusedLocals: false,
-    },
   }
 );
