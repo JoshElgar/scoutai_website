@@ -403,7 +403,7 @@ export default function MainContent() {
             </div>
 
             {/* Quick links */}
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center md:items-start">
               <h4 className="font-pokemon-pixel text-lg mb-4 uppercase tracking-wide">
                 Tactical Systems
               </h4>
