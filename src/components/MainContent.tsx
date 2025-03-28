@@ -303,6 +303,16 @@ export default function MainContent() {
             inertial navigation system (INS). The INS relies on advanced
             gyroscopes and accelerometers to track movement and orientation with
             exceptional accuracy, maintaining uninterrupted operation.
+            <br />
+            <br />
+            The system's machine learning algorithms continuously adapt and
+            improve through experience, learning from each navigation challenge
+            to optimize future performance. This self-improving capability
+            ensures that SCOUT becomes increasingly proficient at handling
+            complex scenarios, from navigating dense urban environments to
+            traversing unpredictable wilderness terrain. The AI also maintains
+            detailed logs of all operations, enabling post-mission analysis and
+            system refinement.
           </p>
         </div>
       </div>
